@@ -1,0 +1,14 @@
+{
+  "name": "gruffalo_silver_bars",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "author": "Mitja Kramberger",
+  "license": "MIT",
+  "dependencies": {
+    "ramda": "^0.23.0",
+    "uuid": "^3.0.1"
+  }
+}
