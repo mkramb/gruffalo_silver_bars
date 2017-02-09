@@ -26,6 +26,6 @@ const orderIdI = OrderBoard.register({
   userId: 40, quantity: 2.0, price: 308, type: OrderTypes.buy
 });
 
-OrderBoard.cancel(orderIdI);
+// OrderBoard.cancel(orderIdI);
 
 OrderBoard.debug();
