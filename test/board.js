@@ -69,7 +69,7 @@ describe('OrderBoard', function() {
     expect(allOrders).deep.equal(orders);
   });
 
-  it('should be able to to cancel an order', function() {
+  it('should be able to cancel an order', function() {
     const orders = [
       Object.assign({}, baseOrder, { price: 308, type: OrderTypes.buy }),
       Object.assign({}, baseOrder, { quantity: 3.5, price: 306, type: OrderTypes.sell }),
